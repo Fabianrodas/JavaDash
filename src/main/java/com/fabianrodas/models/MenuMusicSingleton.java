@@ -23,7 +23,6 @@ public class MenuMusicSingleton {
         musicPlayer = new MediaPlayer(music);
 
         musicPlayer.setCycleCount(MediaPlayer.INDEFINITE);
-        musicPlayer.setVolume(0.5);
     }
 
     public static MenuMusicSingleton getInstance() {

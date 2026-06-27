@@ -68,17 +68,17 @@
       </ImageView>
       <HBox fx:id="menuHbox1" alignment="CENTER" layoutX="204.0" layoutY="170.0" prefHeight="186.0" prefWidth="554.0" spacing="40.0">
          <children>
-            <ImageView fx:id="garageBtn" fitHeight="125.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="garageBtn" fitHeight="125.0" fitWidth="250.0" onMouseClicked="#goToGarage" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../buttons/GJ_garageBtn_001.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="playBtn" fitHeight="175.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="playBtn" fitHeight="175.0" fitWidth="250.0" onMouseClicked="#goToMainLevels" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../buttons/GJ_playBtn_001.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="creatorBtn" fitHeight="125.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="creatorBtn" fitHeight="125.0" fitWidth="250.0" onMouseClicked="#goToCreator" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../buttons/GJ_creatorBtn_001.png" />
                </image>
